@@ -148,13 +148,13 @@ First, open 'terminal' on your mac. We are going to use the terminal to generate
 
 
  <details><summary>For Mac and Linux</summary> 
-1. run the following shell command, replacing the path to your private key if necessary:
+Run the following shell command, replacing the path to your private key if necessary:  
 ```
 cd ~/.ssh
 ssh-keygen -t ed25519 -b 4096
 chmod 400 ~/.ssh/id_ed25519
 ```
-<br>
+
 - Next, share the public key with the Ron server
 ```
 ssh-copy-id USERNAME@ron.sr.unh.edu
@@ -163,6 +163,7 @@ If that doesn't work, we can try:
 ```
 cat ~/.ssh/id_rsa.pub | ssh user@12.34.56.78 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys
 ```
+<br>
 </details> <!-- end for mac-->
 <br>
  <details><summary>For Windows</summary> 
@@ -175,5 +176,5 @@ Then navigate to the private key file in Windows Explorer, right-click and selec
 
 <br>
 
-
+Test the connection by connecting to RON
 
