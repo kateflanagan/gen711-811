@@ -1,0 +1,4 @@
+1. What are 3 ways to change directories to your home directory from the untrimmed_fastq directory?
+    1. cd (tab, tab)
+    2. cd ~
+    3. cd /home/kmf1129
