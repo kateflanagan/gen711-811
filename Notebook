@@ -1,4 +1,33 @@
 1. What are 3 ways to change directories to your home directory from the untrimmed_fastq directory?
     1. cd (tab, tab)
     2. cd ~
-    3. cd /home/kmf1129
+    3. cd /home/users/kmf1129
+
+2. How many programs are in /bin?
+        1624
+        ls /bin | wc -l
+
+3. How would you list all of the folder in /bin that...
+
+    a. start with the letter C?
+        ls /bin/c*
+            (start with has the asterics AFTER)
+            if you wanted the number, add | wc -l for word count, list
+
+    b. contain the letter A?
+        ls /bin/*a*
+                (contain has the asterics before and after)
+                there are 633!!
+    c. end with the letter o?
+        ls /bin/*o
+                (end with has the asterics BEFORE)
+    
+    d. contain both the letters C and A?
+        ls /bin/*c* /bin/*a* 
+                there are 1157
+
+What command/commands would you use to find the line number in your history for the command that listed all the '.fastq' files using the absolute path. 
+    history | grep -n '\.fastq'
+
+**** "ls" lists files and directories
+**** "history | grep" lists prior commands or code that has been typed
