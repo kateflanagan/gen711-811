@@ -31,3 +31,28 @@ What command/commands would you use to find the line number in your history for 
 
 **** "ls" lists files and directories
 **** "history | grep" lists prior commands or code that has been typed
+
+Navigate to your untrimmed_fastq directory in one command
+cd gen711-811/shell_data/untrimmed_fastq/
+    use the tab key to autopopulate the files quickly
+
+To list hidden files/directories 
+    ls -la
+    ls -a
+    ls --all
+    ls .*
+        this ".*" will display anything "hidden" and show everything in it
+
+    the l will give the long info
+        ls -laF
+             "drwxr-xr-x." 
+                shows the viewer permissions
+
+    .hidden
+    youfoundit.txt
+
+To navigate back to a previous command and run it
+    !n where n=line number
+
+../
+    navigates back 
