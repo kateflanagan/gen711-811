@@ -59,3 +59,40 @@ To navigate back to a previous command and run it
 
 BACKUP
 mv *backup.fastq backup/
+
+
+Lab 5 notes
+
+cd gen711-811/shell_data/untrimmed_fastq/
+        navigates to untrimmed folder
+
+@SRR097977.249 209DTAAXX_Lenski2_1_7:8:3:441:292 length=36
+GGGTAGGTATTACTCAGGACGAGGCGGTCGTGCCAC
++SRR097977.249 209DTAAXX_Lenski2_1_7:8:3:441:292 length=36
+C:CCC::CCCCCCCC<8?6A:C28C<608'&&&,'$
+
+    Title
+    Sequences
+    + and then the title again for space
+    quality score?
+
+issues with less when accessing fastq
+    if using the less after accessing using "q"
+
+    concatinate - print whole file to screen
+        two fast qs and conbine them cat command file 1 file 2
+
+head- first few lines
+-n#
+
+language is bash
+
+To list the amount of lines in fast q
+        wc -l
+
+to find the storage amount for the fastq file 
+        ls -lrth (fastq file)
+
+
+change mode?
+        chmod
